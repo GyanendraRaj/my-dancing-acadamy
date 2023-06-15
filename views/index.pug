@@ -1,0 +1,48 @@
+//- index.pug
+doctype html
+html
+  head
+    title  Gyanendra's Dance Acadamy
+    style
+      include ../static/style.css
+  body  
+    nav#navbar
+      ul
+        div.logo
+          img(src="/static/logo.png", alt="logo")
+          | GDA          
+        li #[a(href="/") Home ]
+        li #[a(href="/") About ]
+        li #[a(href="/") services] 
+        li #[a(href="/") Contact Us]
+
+  section#intro 
+    div Welcome To Gyanendra's Dance Acadamy
+    div.small Eat Dance Sleep Repeat
+  section#mission
+    h1 Our Mission  is to make people happy and healthy with dance
+    div.card1
+      h2 this is our card 1
+    div.card2
+      h2 this is our card 2
+    div.card3
+      h2 this is our card 3
+      
+     
+  section#sponcer
+    h2 Our sponcer are
+    div#sponcers
+      img(src="/static/logos1.png", alt="sponcers" class="spimg")
+      img(src="/static/logos2.png", alt="sponcers" class="spimg")
+      img(src="/static/logos3.png", alt="sponcers" class="spimg")
+      img(src="/static/logos4.png", alt="sponcers" class="spimg")
+       
+
+  footer#footer 
+    <h2> copyright © 2023 GyanendraDanceAcadamy.com | All Rights Reserves </h2>
+
+
+
+
+    script
+      include ../static/index.js

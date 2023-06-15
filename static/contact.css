@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    background-color: rgb(167, 149, 149);
+    /* width: 60%; */
+}
+
+
+.box{
+    border: 5px solid black;
+    border-radius: 5px;
+    height: 75vh;
+    background-color: rgb(233, 215, 158);
+}
+
+
+.para{
+    border: 2px solid red;
+
+    
+}
+.myForm{
+    margin-top: 50px ;
+    color: rgb(185, 35, 35);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.myInput{
+    
+    width: 40%;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid grey;
+    background-color: rgb(165, 165, 201);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.btn{
+    color: rgb(10, 17, 17);
+    padding: 5px;
+    margin: 8px;
+    background-color: rgb(165, 165, 201);
+    border: 3px solid black;
+    border-radius: 9px;
+    font-weight: bold;
+    width: 200px;
+    cursor: pointer;
+}

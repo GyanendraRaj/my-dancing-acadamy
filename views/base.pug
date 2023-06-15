@@ -1,0 +1,19 @@
+//- layout.pug
+html
+  head
+    title  Gyanendra's Dance Acadamy
+    block scripts
+    block  style      
+  body
+    nav#navbar
+       ul
+          div.logo
+            img(src="/static/logo.png", alt="logo")
+            | GDA          
+          li #[a(href="/") Home ]
+          li #[a(href="/") About ]
+          li #[a(href="/") services] 
+          li #[a(href="/contact") Contact Us]
+    block content
+    footer#footer 
+        <h2> copyright © 2023 GyanendraDanceAcadamy.com | All Rights Reserves </h2>
